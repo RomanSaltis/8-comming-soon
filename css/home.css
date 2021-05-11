@@ -1,5 +1,6 @@
 /*basic/initial styles*/
 @import './basic/reset.css';
+@import './basic/variables.css';
 @import './basic/layout.css';
 
 /*components styles*/
@@ -8,3 +9,11 @@
 @import './components/form.css';
 @import './components/mouse.css';
 @import './components/progress-bar.css';
+
+
+.bg-primary {
+   background-color: var(--color-primary); 
+}
+.bg-secondary {
+   background-color: var(--color-secondary); 
+}
