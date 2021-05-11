@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/RomanSaltis/8-comming-soon/issues"
   },
-  "homepage": "https://github.com/RomanSaltis/8-comming-soon#readme",
-  "dependencies": {
-    "live-server": "^1.2.1"
-  }
+  "homepage": "https://github.com/RomanSaltis/8-comming-soon#readme"
 }
