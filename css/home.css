@@ -3,6 +3,9 @@
 @import './basic/variables.css';
 @import './basic/layout.css';
 
+/* 3rd-party */
+@import './3rd-party/font-awesome.min.css';
+
 /* component styles */
 @import './components/button.css';
 @import './components/clock.css';
