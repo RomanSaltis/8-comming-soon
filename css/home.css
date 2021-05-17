@@ -78,7 +78,32 @@ main p a {
   text-decoration: none;
 }
 
-/* FOOTE */
+/* FOOTER */
 footer.container {
   padding-top: 0;
+}
+
+.container .socials {
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid #fff;
+}
+.socials > .fa {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  color: var(--color-light);
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 44px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.socials > .fa:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary);
 }
