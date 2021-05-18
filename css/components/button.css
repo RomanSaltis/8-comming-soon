@@ -1,0 +1,67 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #0002;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .btn-round {
+    display: inline-block;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    box-shadow: 0 1px 2px #0002;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .btn:hover,
+  .btn-round:hover {
+    box-shadow: 0 2px 8px #0007;
+  }
+  
+  .btn.btn-primary,
+  .btn-round.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+  }
+  
+  /* staciakampiam mygtukam skirtas stilius */
+  .btn.btn-small {
+    padding: 8px 10px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .btn.btn-big {
+    padding: 15px 30px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  /* apvaliem mygtukam skirtas stilius */
+  .btn-round.btn-small {
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .btn-round.btn-big {
+    width: 66px;
+    height: 66px;
+    font-size: 44px;
+    line-height: 66px;
+    border-radius: 50%;
+  }
