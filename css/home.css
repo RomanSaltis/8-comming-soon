@@ -59,16 +59,19 @@
 .right-column {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 main h2 {
+  width: 100%;
   font-size: 20px;
   text-transform: uppercase;
   color: var(--color-dark);
 }
 
 main p {
+  width: 100%;
   font-size: 17px;
   line-height: 1.7em;
   color: var(--color-grey);
@@ -90,8 +93,9 @@ footer.container {
   flex-wrap: wrap;
   gap: 10px;
   border-bottom: 1px solid #fff;
+  position: relative;
 }
-.socials > .fa {
+.socials > .social {
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -103,7 +107,13 @@ footer.container {
   text-decoration: none;
   transition: all 0.3s;
 }
-.socials > .fa:hover {
+.socials > .social:hover {
   background-color: var(--color-light);
   color: var(--color-primary);
+}
+
+.back-to-top {
+  position: absolute;
+  top: -26px;
+  right: -12px;
 }
