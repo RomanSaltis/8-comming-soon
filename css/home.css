@@ -3,6 +3,9 @@
 @import './basic/variables.css';
 @import './basic/layout.css';
 
+/* 3rd-party */
+@import './3rd-party/font-awesome.min.css';
+
 /* component styles */
 @import './components/button.css';
 @import './components/clock.css';
@@ -56,16 +59,19 @@
 .right-column {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 main h2 {
+  width: 100%;
   font-size: 20px;
   text-transform: uppercase;
   color: var(--color-dark);
 }
 
 main p {
+  width: 100%;
   font-size: 17px;
   line-height: 1.7em;
   color: var(--color-grey);
@@ -75,7 +81,39 @@ main p a {
   text-decoration: none;
 }
 
-/* FOOTE */
+/* FOOTER */
 footer.container {
   padding-top: 0;
+}
+
+.container .socials {
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid #fff;
+  position: relative;
+}
+.socials > .social {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  color: var(--color-light);
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 44px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.socials > .social:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+
+.back-to-top {
+  position: absolute;
+  top: -26px;
+  right: -12px;
 }
