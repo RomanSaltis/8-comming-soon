@@ -20,7 +20,15 @@ function progressBar(selector, data) {
     }
 
     // result return
-    DOM.insertAdjacentHTML('afterend', HTML);
+    DOM.insertAdjacentHTML('beforeend', HTML);
+
+    const allProgressBarDOM = document.querySelectorAll('.progress-bar');
+    console.log(allProgressBarDOM);
+
+    // event
+    document.addEventListener('scroll', () => {
+        console.log(scrollY);
+    })
 }
 
 export { progressBar }
