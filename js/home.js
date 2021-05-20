@@ -6,4 +6,4 @@ import { socialsData } from './data/socialsData.js';
 
 renderClock('#hero_clock', '04-19 10:00:00');
 socials('#socials_block', socialsData);
-progressBar('.left-column > p', progressBarData);
+progressBar('.left-column', progressBarData);
