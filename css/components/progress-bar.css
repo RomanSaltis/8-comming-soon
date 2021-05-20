@@ -26,9 +26,11 @@
   height: 100%;
   float: left;
   background-color: var(--color-primary);
-  animation: loading 2s forwards;
   transform: scale(0);
   transform-origin: left;
+}
+.progress-bar.animate .progress > .bar {
+  animation: loading 2s forwards;
 }
 
 @keyframes loading {
